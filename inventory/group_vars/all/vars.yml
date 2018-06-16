@@ -1,0 +1,9 @@
+# All DebOps defaults are stored here.
+# You should overwrite these values in either a group or host vars file.
+
+ntp__timezone: 'Etc/UTC'
+
+nullmailer__enabled: False
+
+pki_internal: False
+pki_authorities: []
